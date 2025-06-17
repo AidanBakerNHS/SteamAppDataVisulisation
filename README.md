@@ -35,7 +35,7 @@ To resolve this Steam Spy's API was used to collect additional information using
 
 Although Steam Spy's API requests we're more generous than Steams (comfortably allowing 1 request per second), non-games (software, DLC, movies) from the original SteamExport.csv dataset were excluded to cut down on the time required for the Python script to complete.
 
-This is the final version of the dataset which will be explored.
+This is the final version of the dataset which will be explored, which contains 94,955 records (prior to data cleaning).
 
 ### Links to dataset:
 
