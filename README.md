@@ -11,7 +11,6 @@
 5. [Machine Learning](#machine-learning)  
 6. [Usage](#usage)  
 7. [Future Work](#future-work)  
-8. [License](#license)  
  
 
 ## Project Overview
@@ -41,6 +40,6 @@ This is the final version of the dataset which will be explored.
 ## Machine Learning
 
 ## Usage
-The dataset used is the [SteamSpy.csv](Data/SteamSpy.csv), containing all neccecary data to run the Python script.
+The dataset used is the [SteamSpy.csv](Data/SteamSpyExport Dropbox.csv), containing all neccecary data to run the Python script.
 
 ## Future Work
