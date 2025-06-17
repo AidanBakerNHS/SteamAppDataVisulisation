@@ -5,7 +5,8 @@
 1. [Project Overview](#project-overview)  
 2. [Data Collection](#data-collection)  
    - [Steam API](#steam-api)  
-   - [Steam Spy API](#steam-spy-api)  
+   - [Steam Spy API](#steam-spy-api)
+3. [Links to dataset](#links-to-dataset)  
 3. [Data Cleaning & Preprocessing](#data-cleaning--preprocessing)  
 4. [Exploratory Data Analysis (EDA) & Visualisations](#exploratory-data-analysis-eda--visualisations)  
 5. [Machine Learning](#machine-learning)  
@@ -20,7 +21,7 @@ Additionally, a multi-class machine learning tool will be created to assess the 
 
 ## Data Collection
 
-### Steam API:
+### Steam API
 [Include details about how the python script calling the steam API worked]  
 The Steam API was used to collect data from 348,312 app's on steam (Dataset as of December 2024)  
 This process was completed using a Python script to automatically call the Steam API to collect this information, which was placed on an Amazon Web Service (AWS) machine to complete, a process which took 2 and a half weeks due to steams strict API limits, which frequently resulted in HTTP error 429 (too many requests) imposing 5-minute timeouts.
@@ -33,6 +34,14 @@ Although Steam Spy's API requests we're more generous than Steams (comfortably a
 
 This is the final version of the dataset which will be explored.
 
+### Links to dataset:
+
+- **SteamSpyExport.csv** (524 MB) (Primary dataset used)  
+  [⬇️ Download SteamSpy.csv](https://www.dropbox.com/scl/fi/hiaswu5au4dpa6unmrbzk/SteamExport.csv?rlkey=lfri28iaf7ndy4rg98zalvqjq&e=1&st=erkunxu5&dl=0)
+
+- **SteamExport.csv** (134 MB)  
+  [⬇️ Download SteamExport.csv](https://www.dropbox.com/scl/fi/31mj1eny5wdo15vleocvc/SteamSpyExport.csv?rlkey=npkf91iqte0ebezcyrkosmsxz&e=1&st=5xid3gwy&dl=0)
+
 ## Data Cleaning & Preprocessing
 
 ## Exploratory Data Analysis (EDA) & Visulisations
@@ -40,6 +49,6 @@ This is the final version of the dataset which will be explored.
 ## Machine Learning
 
 ## Usage
-The dataset used is the [SteamSpy.csv](Data/SteamSpyExport Dropbox.csv), containing all neccecary data to run the Python script.
+The dataset used is the SteamSpyExport.csv containing all neccecary data to run the Python script.
 
 ## Future Work
