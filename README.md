@@ -52,6 +52,6 @@ This is the final version of the dataset which will be explored.
 ## Machine Learning
 
 ## Usage
-The dataset used is the SteamSpyExport.csv containing all neccecary data to run the Python script.
+The dataset used is the SteamSpyExport.csv containing all neccecary data to run the Python script. The link to download them via Dropbox is located [here](#links-to-dataset).
 
 ## Future Work
