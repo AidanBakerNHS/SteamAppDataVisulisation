@@ -8,7 +8,7 @@
    - [Steam Spy API](#steam-spy-api)  
    - [Links to dataset](#links-to-dataset)  
 3. [Data Cleaning & Preprocessing](#data-cleaning--preprocessing)  
-4. [Exploratory Data Analysis (EDA) & Visualisations](#exploratory-data-analysis-eda--visualisations)  
+4. [Exploratory Data Analysis (EDA) & Visualisations](#exploratory-data-analysis-eda--visulisations)  
 5. [Machine Learning](#machine-learning)  
 6. [Usage](#usage)  
 7. [Future Work](#future-work)   
