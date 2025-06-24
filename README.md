@@ -39,7 +39,7 @@ Although Steam Spy's API requests we're more generous than Steams (comfortably a
 
 This is the final version of the dataset which will be explored, which contains 94,955 records (prior to data cleaning). The original dataset from Steam without the Steam Spy data is also linked below, but unused further in this project.
 
-### Links to dataset:
+### Links to dataset
 
 The datasets collected, are publicly available here: (Updated as of December 2024)
 
@@ -52,6 +52,12 @@ The datasets collected, are publicly available here: (Updated as of December 202
 ## Data Cleaning & Preprocessing
 
 ## Exploratory Data Analysis (EDA) & Visulisations
+
+### Bubble Visulisation of Estimated Owners per Year per Genre
+
+[![View Interactive Bubble Chart](Assets\SteamVisPreview.png)](https://github.com/AidanBakerNHS/SteamAppDataVisulisation/blob/main/Scripts/Steam_Games_Per_Year_Estimated_Owners.html)
+
+
 
 ## Machine Learning
 
