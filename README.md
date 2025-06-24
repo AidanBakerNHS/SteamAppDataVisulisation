@@ -55,8 +55,9 @@ The datasets collected, are publicly available here: (Updated as of December 202
 
 ### Bubble Visulisation of Estimated Owners per Year per Genre
 
-[![🖱️ Interactive Bubble Chart](/Assets/SteamVisPreview.PNG)](https://aidanbakernhs.github.io/SteamAppDataVisulisation/Steam_Games_Per_Year_Estimated_Owners.html)
+[![Interactive Bubble Chart](/Assets/SteamVisPreview.PNG)](https://aidanbakernhs.github.io/SteamAppDataVisulisation/Steam_Games_Per_Year_Estimated_Owners.html)
 
+🖱️ Click to interact.
 
 
 ## Machine Learning
