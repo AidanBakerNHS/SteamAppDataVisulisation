@@ -15,7 +15,7 @@
 
 ## Project Overview
 
-This project will explore trends and patterns within PC video games released on Steam. A comprehensive EDA will be performed  
+This project will explore trends and patterns within PC video games released on Steam. A comprehensive EDA will be performed to pick out trends over the Years.
 
 Additionally, a multi-class machine learning tool will be created to assess the viability of using the features within the dataset to predict how well users receive a game by targeting the user-review score (Self made feature, aggregating the reviews of the game into groups, i.e 'Positive,', 'Very Positive'. 'Negative' etc)
 
