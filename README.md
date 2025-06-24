@@ -57,7 +57,7 @@ The datasets collected, are publicly available here: (Updated as of December 202
 
 [![Interactive Bubble Chart](/Assets/SteamVisPreview.PNG)](https://aidanbakernhs.github.io/SteamAppDataVisulisation/Steam_Games_Per_Year_Estimated_Owners.html)
 
-🖱️ Click to interact.
+🖱️ Click the image to be taken to the interactable visulisation. Click on a bubble to zoom in.
 
 
 ## Machine Learning
