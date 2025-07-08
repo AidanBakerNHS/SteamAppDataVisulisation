@@ -1,4 +1,4 @@
-# SteamAppDataVisulisation
+# SteamAppDataVisulisation (WIP)
 
 ## Table of Contents
 
@@ -25,7 +25,7 @@ Additionally, a multi-class machine learning tool will be created to assess the 
 
 The Steam API was used to collect data from 348,312 app's on steam
 
-This process was completed using a Python script to automatically call the Steam API to collect this information, which was placed on an Amazon Web Service (AWS) machine to complete, a process which took 2 and a half weeks due to steams strict API limits, which frequently resulted in HTTP error 429 (too many requests) imposing 5-minute timeouts.
+This process was completed using a Python script to automatically call the Steam API to collect this information, which was placed on an Amazon Web Service (AWS) machine to complete. The process took 2 and a half weeks due to steams strict API limits, which frequently resulted in HTTP error 429 (too many requests) imposing 5-minute timeouts.
 
 ### Steam Spy API
 
@@ -33,7 +33,7 @@ Once the Steam data was collected, it was determined that this dataset was lacki
 
 To resolve this Steam Spy's API was used to collect additional information using a similar Python script to append this data onto the steam data. 
 
-Steam Spy gathers daily data from Steam regarding player numbers, providing additional information to explore in order to learn if any clear correlations exist that indicate if a game is likely to be successful.  
+Steam Spy gathers daily data from Steam regarding player numbers, providing additional information to explore, as well as to indicate any feature which hold predictive power.
 
 Although Steam Spy's API requests we're more generous than Steams (comfortably allowing 1 request per second), non-games (software, DLC, movies) from the original SteamExport.csv dataset were excluded to cut down on the time required for the Python script to complete.
 
@@ -51,6 +51,8 @@ The datasets collected, are publicly available here: (Updated as of December 202
 
 ## Data Cleaning & Preprocessing
 
+[Discuss is the data set appropriate? How clean is it?]
+
 ## Exploratory Data Analysis (EDA) & Visulisations
 
 ### Bubble Visulisation of Estimated Owners per Year per Genre
@@ -58,6 +60,8 @@ The datasets collected, are publicly available here: (Updated as of December 202
 [![Interactive Bubble Chart](/Assets/SteamVisPreview.PNG)](https://aidanbakernhs.github.io/SteamAppDataVisulisation/Steam_Games_Per_Year_Estimated_Owners.html)
 
 🖱️ Click the image to be taken to the interactable visulisation. Click on a bubble to zoom in.
+
+A D3 package created by Mike Bostock (2023) was used to support in the creation of this visual. (https://observablehq.com/@d3/zoomable-circle-packing)
 
 
 ## Machine Learning
