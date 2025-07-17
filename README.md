@@ -47,7 +47,7 @@ The datasets collected, are publicly available here: (Updated as of December 202
   [⬇️ Download SteamSpyExport.csv](https://www.dropbox.com/scl/fi/zbgdcx9en8mifvaox0a02/SteamSpyExport.csv?rlkey=uuw89urezjobf5asg82e70shz&st=jgcefz9v&dl=0)
 
 - **SteamExport.csv** (134 MB)  
-  [⬇️ Download SteamExport.csv](https://www.dropbox.com/scl/fi/31mj1eny5wdo15vleocvc/SteamSpyExport.csv?rlkey=npkf91iqte0ebezcyrkosmsxz&e=1&st=5xid3gwy&dl=0)
+  [⬇️ Download SteamExport.csv](https://www.dropbox.com/scl/fi/hiaswu5au4dpa6unmrbzk/SteamExport.csv?rlkey=lfri28iaf7ndy4rg98zalvqjq&st=jac6xlp8&dl=0)
 
 ## Data Cleaning & Preprocessing
 
