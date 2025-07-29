@@ -106,7 +106,18 @@ Game releases begin to sharpy increase from 2013, with Action being the dominant
 
 Highly popular titles with millions of owners cluster around 70 - 95% positive reviews, whereas lower owned games experience a wider variance in positive reviews. This suggests lower owned games, perhaps more niche titles, can be hidden gems or disappointments.
 
+### Owners vs Positive Review Percentage
 
+![Owners vs Positive Reviews](/Assets/AvgPosReviewsPerYear.png)
+
+High early averages from 1998 - 2008. Interestingly reviews spike up and down despite rising every other Year.
+
+There is a noticeable and sharp drop in 2008 which is stabilized in 2012.
+
+Positive review average dropped to its lowest point in 2014 before experiencing a slight uptick after 2018.
+
+
+#### The above EDA has provided valuable insights to power a machine learning model, for example a games popularity being correlated with review stability.
 
 ## Machine Learning
 
