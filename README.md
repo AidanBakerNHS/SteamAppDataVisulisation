@@ -76,14 +76,6 @@ Overall, this dataset contained a wealth of valuable features that can provide p
 
 ## Exploratory Data Analysis (EDA) & Visulisations
 
-• Word Cloud of Game Titles
-
-[![Word Cloud of Single Words](/Assets/WordCloud1.PNG)]
-
-[![Word Cloud of Bi-Grams](/Assets/WordCloud2.PNG)]
-
-The most common single words and bigrams in Steam game titles, reflecting marketing-driven naming schemes.
-
 ### Bubble Visulisation of Estimated Owners per Year per Genre
 
 [![Interactive Bubble Chart](/Assets/SteamVisPreview.PNG)](https://aidanbakernhs.github.io/SteamAppDataVisulisation/Steam_Games_Per_Year_Estimated_Owners.html)
@@ -91,6 +83,29 @@ The most common single words and bigrams in Steam game titles, reflecting market
 🖱️ Click the image to be taken to the interactable visulisation. Click on a bubble to zoom in.
 
 A D3 package created by Mike Bostock (2023) was used to support in the creation of this visual. (https://observablehq.com/@d3/zoomable-circle-packing)
+
+### Word Cloud of Game Titles
+
+[![Word Cloud of Single Words](/Assets/WordCloud1.png)]
+
+[![Word Cloud of Bi-Grams](/Assets/WordCloud2.png)]
+
+The most common single words and bigrams in Steam game titles, reflecting marketing-driven naming schemes.
+
+### Total Released by Year
+
+[![Released Per Year](/Assets/ReleasesPerYear.png)]
+
+[![Released Per Year Per Genre](/Assets/ReleasesPerYearPerGenre.png)]
+
+Game releases begin to sharpy increase from 2013, with Action being the dominant genre.
+
+### Owners vs Positive Review Percentage
+
+[![Owners vs Positive Reviews](/Assets/OwnersvsPosReviews.png)]
+
+Highly popular titles with millions of owners cluster around 70 - 95% positive reviews, where as lower owned games experience a wider variance in positive reviews. This suggests lower owned games, perhaps more niche titles, can be hidden gems or dissapointments.
+
 
 
 ## Machine Learning
