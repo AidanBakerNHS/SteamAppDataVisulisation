@@ -94,9 +94,9 @@ The most common single words and bigrams in Steam game titles, reflecting market
 
 ### Total Released by Year
 
-[![Released Per Year](/Assets/ReleasesPerYear.png)
+![Released Per Year](/Assets/ReleasesPerYear.png)
 
-[![Released Per Year Per Genre](/Assets/ReleasesPerYearPerGenre.png)
+![Released Per Year Per Genre](/Assets/ReleasesPerYearPerGenre.png)
 
 Game releases begin to sharpy increase from 2013, with Action being the dominant genre.
 
