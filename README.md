@@ -49,8 +49,9 @@ The datasets collected, are publicly available here: (Updated as of December 202
 - **SteamExport.csv** (134 MB)  
   [⬇️ Download SteamExport.csv](https://www.dropbox.com/scl/fi/hiaswu5au4dpa6unmrbzk/SteamExport.csv?rlkey=lfri28iaf7ndy4rg98zalvqjq&st=jac6xlp8&dl=0)
   
-  - **SteamDataCleaned.csv** (290 MB) - This is the dataset that will be used once cleaned and pre-processed to conduct EDA and machine learning upon.
-  [⬇️ Download SteamExport.csv](https://www.dropbox.com/scl/fi/lvojud078rtnqlmw645aj/SteamDataCleaned.csv?rlkey=ps4ny9saxqurmmc9a7qmrsqxi&st=mu8jy9lq&dl=0)
+- **SteamDataCleaned.csv** (290 MB) - This is the dataset that will be used once cleaned and pre-processed to conduct EDA and machine learning upon.
+
+	[⬇️ Download SteamExport.csv](https://www.dropbox.com/scl/fi/lvojud078rtnqlmw645aj/SteamDataCleaned.csv?rlkey=ps4ny9saxqurmmc9a7qmrsqxi&st=mu8jy9lq&dl=0)
 
 ## Data Cleaning & Preprocessing
 
