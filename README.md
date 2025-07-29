@@ -50,14 +50,13 @@ The datasets collected, are publicly available here: (Updated as of December 202
   [⬇️ Download SteamExport.csv](https://www.dropbox.com/scl/fi/hiaswu5au4dpa6unmrbzk/SteamExport.csv?rlkey=lfri28iaf7ndy4rg98zalvqjq&st=jac6xlp8&dl=0)
   
 - **SteamDataCleaned.csv** (290 MB) - This is the dataset that will be used once cleaned and pre-processed to conduct EDA and machine learning upon.
-
 	[⬇️ Download SteamExport.csv](https://www.dropbox.com/scl/fi/lvojud078rtnqlmw645aj/SteamDataCleaned.csv?rlkey=ps4ny9saxqurmmc9a7qmrsqxi&st=mu8jy9lq&dl=0)
 
 ## Data Cleaning & Preprocessing
 
 • Excessive NULLs (> 90%)
 
-Many of the columns (metacritic score, recommendations, score_rank and more) contains a significant number of NULLs (>90%).
+Many of the columns (metacritic score, recommendations, score_rank and more) contain a significant number of NULLs (>90%).
 Due to so little of the data for these columns existing, imputing these fields (E.g. replacing 90% of null values with an average) would have introduced distortion as opposed to insight. Instead, these columns were dropped, and only those with an acceptable number of NULLs were retained and filled.
 
 • Median vs Mean Imputation
@@ -73,7 +72,8 @@ In addition, the dataset contained mixed-type columns. For example, strings were
 
 Finally, estimated owners were provided as a range, e.g. '5,000 - 10,000'. This string column required stripping non numerical characters and retrieving the midpoint of this range to gain a numeric value.
 
-Overall, this dataset contained a wealth of valuable features that can provide predictive power to a machine learning model upon pruning, data type changes and feature engineering to support this task.
+
+#### Overall, this dataset contained a wealth of valuable features that can provide predictive power to a machine learning model upon pruning, data type changes and feature engineering to support this task.
 
 ## Exploratory Data Analysis (EDA) & Visulisations
 
@@ -93,13 +93,13 @@ A D3 package created by Mike Bostock (2023) was used to support in the creation 
 
 The most common single words and bigrams in Steam game titles, reflecting marketing-driven naming schemes.
 
-### Total Released by Year
+### Total Releases by Year
 
 ![Released Per Year](/Assets/ReleasesPerYear.png)
 
 ![Released Per Year Per Genre](/Assets/ReleasesPerYearPerGenre.png)
 
-Game releases begin to sharpy increase from 2013, with Action being the dominant genre.
+Game releases begin to sharpy increase from 2013, with Action being the dominant genre throughout. A notable change is Casual becoming the second most released genre in 2024, surpassing Adventure.
 
 ### Owners vs Positive Review Percentage
 
@@ -111,7 +111,7 @@ Highly popular titles with millions of owners cluster around 70 - 95% positive r
 
 ![Owners vs Positive Reviews](/Assets/AvgPosReviewsPerYear.png)
 
-High early averages from 1998 - 2008. Interestingly reviews spike up and down despite rising every other Year.
+High early averages from 1998 - 2008. Interestingly reviews spike up and down despite rising every other Year in this period.
 
 There is a noticeable and sharp drop in 2008 which is stabilized in 2012.
 
