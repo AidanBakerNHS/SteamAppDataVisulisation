@@ -88,6 +88,8 @@ Finally, estimated owners were provided as a range, e.g. '5,000 - 10,000'. This 
 
 A D3 package created by Mike Bostock (2023) was used to support in the creation of this visual. (https://observablehq.com/@d3/zoomable-circle-packing)
 
+Efforts to make this visual user friendly were considered, such as disabling the labelling of games for high volume bubbles and cutting off long game titles with ellipses. In addition, a Year slider was implemented to show changes over time.
+
 ### Word Cloud of Game Titles
 
 ![Word Cloud of Single Words](/Assets/WordCloud1.png)
@@ -126,9 +128,10 @@ Positive review average dropped to its lowest point in 2014 before experiencing 
 
 Expected correlations are present, for example reviews scale with ownership due to the increased volume of players, in addition to positive and negative reviews moving in relation to each other.
 
-In addition, playtime metrics cluster tightly together, with average and median times being near interchangeable.
+Secondly, playtime metrics cluster tightly together with average and median times being near interchangeable.
 
 These insights, although expected, inform feature selection for the machine learning aspect of this project, indicating that normalising features such as a single review percentage over raw counts may be preferable due to similar features existing within the dataset.
+
 
 
 #### The above EDA has provided valuable insights to power a machine learning model, for example a games popularity being correlated with review stability.
