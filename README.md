@@ -154,7 +154,7 @@ There remains an imbalance issue with 'Negative' now being dominant, but it's a 
 
 A logistic regression multi-class model using XGBoost was created.
 
-A time based (20% test) split was used as opposed to random. This was done as trends change over time (As evident in the EDA) and should this model be used in a professional setting more recent game released would be evaluated upon as opposed to earlier ones.
+A time based (30% test) split was used as opposed to random. This was done as trends change over time (As evident in the EDA) and should this model be used in a professional setting more recent game released would be evaluated upon as opposed to earlier ones.
 
 This produced the following results:
 
