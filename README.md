@@ -160,6 +160,10 @@ This produced the following results:
 
 ![CM](/Assets/CM.png)
 
+Feature importance (Top 50):
+
+![Feature Importance](/Assets/FI.png)
+
 
 ## Usage
 
