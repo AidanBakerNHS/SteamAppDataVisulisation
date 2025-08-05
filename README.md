@@ -1,4 +1,4 @@
-# SteamAppDataVisulisation (WIP)
+# SteamAppDataVisulisation
 
 ## Table of Contents
 
@@ -43,7 +43,7 @@ This is the final version of the dataset which will be explored, which contains 
 
 The datasets collected, are publicly available here: (Updated as of December 2024)
 
-- **SteamSpyExport.csv** (513 MB) (Primary dataset used)  
+- **SteamSpyExport.csv** (513 MB)
 
   [⬇️ Download SteamSpyExport.csv](https://www.dropbox.com/scl/fi/zbgdcx9en8mifvaox0a02/SteamSpyExport.csv?rlkey=uuw89urezjobf5asg82e70shz&st=jgcefz9v&dl=0)
 
@@ -51,7 +51,7 @@ The datasets collected, are publicly available here: (Updated as of December 202
 
   [⬇️ Download SteamExport.csv](https://www.dropbox.com/scl/fi/hiaswu5au4dpa6unmrbzk/SteamExport.csv?rlkey=lfri28iaf7ndy4rg98zalvqjq&st=jac6xlp8&dl=0)
   
-- **SteamDataCleaned.csv** (290 MB) - This is the dataset that will be used once cleaned and pre-processed to conduct EDA and machine learning upon.
+- **SteamDataCleaned.csv** (290 MB) (Primary dataset used) - This is the dataset that will be used once cleaned and pre-processed to conduct EDA and machine learning upon.
 
 	[⬇️ Download SteamDataCleaned.csv](https://www.dropbox.com/scl/fi/lvojud078rtnqlmw645aj/SteamDataCleaned.csv?rlkey=ps4ny9saxqurmmc9a7qmrsqxi&st=mu8jy9lq&dl=0)
 
@@ -152,9 +152,9 @@ To resolve this groups have been combined as such:
 
 There remains an imbalance issue with 'Negative' now being dominant, but it's a vast improvement on before.
 
-A logistic  regression multi-class model using XGBoost was created
+A logistic regression multi-class model using XGBoost was created.
 
-A time based (20% test) split was used as opposed to random. This was done as trends change over time (As evident in the EDA), and should this model be used in a professional setting, later results would be evaluated, as such the most recent games released will be used to test on.
+A time based (20% test) split was used as opposed to random. This was done as trends change over time (As evident in the EDA) and should this model be used in a professional setting more recent game released would be evaluated upon as opposed to earlier ones.
 
 This produced the following results:
 
@@ -164,6 +164,8 @@ This produced the following results:
 ## Usage
 
 The dataset used is the SteamSpyExport.csv containing all neccecary data to run the Python script. The links to download them via Dropbox is located [here](#links-to-dataset).
+
+The SteamDataCleaned.csv is used to conduct the EDA and machine learning, and serves as the primary dataset. The original SteamSpyExport.csv should be used if changes to the cleaning notebook are required.
 
 ## Future Work
 
