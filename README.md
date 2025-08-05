@@ -138,8 +138,37 @@ These insights, although expected, inform feature selection for the machine lear
 
 ## Machine Learning
 
+Hypothesis: "Can Steam’s publicly available data predict the user review score for a game?"
+
+Initial issues with the machine learning tools were a class imbalance as displayed here:
+
+![Categories](/Assets/Categories.png)
+
+The Very Negative and Overwhelmingly negative groups have an insufficient  amount of data for a machine learning tool.
+
+To resolve this groups have been combined as such:
+
+![Categories](/Assets/Categories2.png)
+
+There remains an imbalance issue with 'Negative' now being dominant, but it's a vast improvement on before.
+
+A logistic  regression multi-class model using XGBoost was created
+
+A time based (20% test) split was used as opposed to random. This was done as trends change over time (As evident in the EDA), and should this model be used in a professional setting, later results would be evaluated, as such the most recent games released will be used to test on.
+
+This produced the following results:
+
+![CM](/Assets/CM.png)
+
+
 ## Usage
 
 The dataset used is the SteamSpyExport.csv containing all neccecary data to run the Python script. The links to download them via Dropbox is located [here](#links-to-dataset).
 
 ## Future Work
+
+Expanded work upon the machine learning too to assess the viability of using other classifiers, such as random forrest.
+
+In addition, incorporating a dedicated hyper parameter tuning process to the machine learning notebook would produce more accurate results.
+
+Finally, exploring other methods to resolve class imbalance issues other than combining review groups include over or under sampling. Exploring these methods may also improve the model.
