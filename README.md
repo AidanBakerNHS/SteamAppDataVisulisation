@@ -167,7 +167,7 @@ Feature importance (Top 50):
 
 ## Usage
 
-The dataset used is the SteamSpyExport.csv containing all neccecary data to run the Python script. The links to download them via Dropbox is located [here](#links-to-dataset).
+The dataset used is the SteamSpyExport.csv containing all necessary data to run the Python script. The links to download them via Dropbox is located [here](#links-to-dataset).
 
 The SteamDataCleaned.csv is used to conduct the EDA and machine learning, and serves as the primary dataset. The original SteamSpyExport.csv should be used if changes to the cleaning notebook are required.
 
